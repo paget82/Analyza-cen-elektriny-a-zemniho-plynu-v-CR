@@ -1,8 +1,6 @@
 # Analýza cen elektřiny a zemního plynu v ČR (2024–2025)
 
-**Excel | Datová analytika | Cenotvorba komodit | Reporting a KPI**
-
-Portfolio projekt představuje analytický model pro sledování vývoje velkoobchodních cen energií, plánování nákupních a prodejních objemů a simulaci obchodních cen pro koncové zákazníky.
+Projekt představuje analytický model pro sledování vývoje velkoobchodních cen energií, plánování nákupních a prodejních objemů a simulaci obchodních cen pro koncové zákazníky.
 
 ## 1. Business problém
 
@@ -45,7 +43,6 @@ Nejvyšší měsíční hodnota v souboru je **3 366 Kč/MWh (listopad 2024)** a
 | Simulovaný hrubý obchodní výsledek | 5,72 mil. Kč |
 | Simulovaná hrubá marže | 7,46 % |
 
-> **Pozor:** KPI obchodního výsledku závisí na syntetické spotřebě, modelových nákupních cenách plynu a nastavených přirážkách. Nelze je interpretovat jako skutečnou ziskovost energetické společnosti.
 
 ### Ukázka vývoje cen elektřiny
 
@@ -58,7 +55,8 @@ Nejvyšší měsíční hodnota v souboru je **3 366 Kč/MWh (listopad 2024)** a
 | duben 2025 | 1 985 |
 | prosinec 2025 | 2 595 |
 
-**Dashboard a grafy:** otevřete list `Dashboard` v přiloženém souboru. Pro náhled přímo na GitHubu lze později přidat screenshot do `images/dashboard.png` a vložit sem odkaz `![Dashboard](images/dashboard.png)`.
+## Dashboard: 
+ ![Dashboard](images/dashboard.png).
 
 ## 4. Doporučení pro business
 
@@ -86,9 +84,9 @@ Další rozvoj: získat ověřenou měsíční řadu cen plynu, doplnit reálné
 
 ## Jak projekt spustit
 
-1. Stáhněte soubor `Analyza_cen_energii_CZ_historicka_data.xlsx` z tohoto repozitáře.
+1. Stáhněte soubor `Analyza_cen_energii_CZ_historicka_data.xlsm` z tohoto repozitáře.
 2. Otevřete jej v Microsoft Excelu.
 3. Prohlédněte si `Dashboard` a `Metodika`.
 4. Na listu `Vstupní parametry` změňte modelové předpoklady a sledujte přepočet cenotvorby a KPI.
 
-**Použité nástroje:** Microsoft Excel, vzorce, grafy, modelování KPI a scénářová analýza.
+**Použité nástroje:** Microsoft Excel, vzorce, grafy, modelování KPI.
